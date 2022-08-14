@@ -1,0 +1,182 @@
+@import url(https://cdnjs.cloud flare.com/ajax/libs/font-awesome/4.63/font-awesome.css);
+{
+    font-family: Helvetica, sans-serif;
+  padding: 5%;
+  text-align: center;
+  font-size: 50;
+}
+  body{
+    background-color: aliceblue;
+  }
+/* Styling the area of the slides */
+#slideshow {
+  overflow: hidden;
+  padding-top:3px;
+  height: 300px;
+  width: 700px;
+  margin: 0 auto;
+}
+  
+/* Style each of the sides 
+with a fixed width and height */
+.slide {
+  float: left;
+  height: 290px;
+  width: 50%;
+
+}
+  
+/* Add animation to the slides */
+.slide-wrapper {
+  /* Calculate the total width on the
+  basis of number of slides */
+  width: calc(728px * 4);
+  
+  /* Specify the animation with the
+  duration and speed */
+  animation: slide 12s ease-in infinite;
+}
+  
+/* Set the background color
+of each of the slides */
+.slide:nth-child(1) {
+  background:#FFE4E1;
+}
+  
+.slide:nth-child(2) {
+  background:#FFE4E1;
+}
+  
+.slide:nth-child(3) {
+  backgroun:#FFE4E1;
+}
+  
+.slide:nth-child(4) {
+  background:#FFE4E1;
+}
+  
+/* Define the animation 
+for the slideshow */
+@keyframes slide {
+  /* Calculate the margin-left for 
+  each of the slides */
+  0%{
+      margin-left:0px;
+  }
+  
+  40% {
+    margin-left: calc(- 0);
+  }
+  
+  60% {
+    margin-left: calc(-728px * 2);
+  }
+  
+  80% {
+    margin-left: calc(-728px * 3);
+}
+
+}
+h1{
+    font-size: 2.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+    text-align:center;
+    color:black;
+    margin-top:50px;
+}
+.text{
+  color:black;
+  font:'Arial',sans-serif;
+}
+.cake{
+    width:245px;
+}
+.cak{
+    width:245px;
+}
+.ca{
+    width: 245px;
+
+}
+.intro{
+  color:black;
+}
+table{
+padding-top: 200px;
+  }
+
+ footer{
+      background-color:lightsteelblue;
+      padding:30px 0 20px;
+    }
+   
+  .foot{
+    text-align:center;
+    font-weight:16px;
+    font-size:18px;
+  }
+  .self{
+    width:20%;
+    height:30%;
+    margin-top: 30px;
+    margin-left: 900px;
+  }
+h4{
+  font-size:19px;
+  font-weight:14px;
+  margin-top:60px;
+  margin-left:40px;
+  font-family: 'Monteserrat',sans-serif;
+  color:black;
+  letter-spacing: 1px;
+}
+  
+  p{
+    font-size:18px;
+    top:8px;
+  }
+    /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+    @media screen and (max-height: 450px) {
+      .overlay a {font-size: 20px}
+      .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+      }
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  
